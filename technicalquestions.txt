@@ -1,0 +1,32 @@
+Q: How long did you spend completing the assignment? How (if at all) would you change
+your solution if you had more time?
+
+A: 4.5 hours. 
+
+With more time I could have abstracted a lot of the functionality seen in the two controllers into a management class to increase readability and reduce controller clutter. I also would have liked to include a few extra features, such as offering a broader search criteria if a lodge isn’t found within the initial brief criteria etc. Could have also done a long press that visually expands the radius with a translucent circle that grows as the press continues as another search expansion. A lot of ideas came to mind throughout the project. 
+
+Q: Can you describe a feature (perhaps with some reference code) that exists in your
+chosen programming language that you found particularly useful?
+
+A: In this project Codable came in really handy - it always does when you’re working with API’s & JSON as it reduces the amount of code required to model JSON data by nearly two thirds. 
+
+For example, if you want to model a place result, all you need to do is make that class conform to the Codable Protocol, and name your properties to be the same as the JSON result. (Previewing the JSON result in a ‘pretty’ format was done using an app called Postman). 
+
+///Contains all surf lodge data relevant to his project. Easy to expand - use camel casing to represent underscores. eg: place_id == placeId.
+class SurfLodge: Distance, Codable {
+    
+    let name:String
+    let rating: Double
+    let geometry: Geometry
+    let placeId: String
+    var openingHours: OpeningHours?
+    
+}
+
+placeId and openingHours are actually labelled in the JSON result as place_id and opening_hours, however if you set the decoder you use to allow for camelcasing (example below) Codable will work perfectly.
+
+decoder.keyDecodingStrategy = .convertFromSnakeCase
+
+Q: How would you track down a performance issue with yours or another developer's code?
+
+A: Using Instruments, a really powerful feature of Xcode that can be used to find memory leaks etc or  also by testing various features in Unit Tests. This can be a really good way of testing how fast your code is, and may lead you on to remodel your code to a custom data structure such as a binary tree etc to allow for faster searching. Unit tests has a performance test case you can use to easily measure performance. 
