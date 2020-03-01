@@ -18,4 +18,5 @@ There aren't an awful lot of places that appear under the 'lodging' type with th
 I'd recommend adding a second type, campground, to the type query item on line 99 in Endpoint.swift to find a lot more places, and demonstrate this code a tad better. I've left it with just lodging for my submission so that it hits the brief. 
 
 **Autolayout is in place so that it will resize correctly on any device**
+
 **Unit tests are in place**
