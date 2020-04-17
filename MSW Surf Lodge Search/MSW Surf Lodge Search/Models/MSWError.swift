@@ -8,8 +8,8 @@
 
 import Foundation
 
-enum LocationError: Error{
-    
+enum LocationError: Error {
+
     //general errors
     case coordinateError
     case fillOutAllFields
@@ -23,7 +23,7 @@ enum LocationError: Error{
     //result errors
     case jsonParsingFailure
     case noResults
-    
+
 }
 
 //extend LocationError to support LocalizedError, so that it's easier to display errors in AlertControllers.
@@ -49,7 +49,7 @@ extension LocationError: LocalizedError {
         case .userCancelledInput:
             return NSLocalizedString("Input Cancelled", comment: "")
         case .locationPermissionsError:
-            return NSLocalizedString("You will need to grant this app permission to use your location and provide notifications for it to work as designed. You can change this setting in the settings app on your device.", comment: "")
+            return NSLocalizedString("Location Permissions Not Granted", comment: "")
     }
 }
 }

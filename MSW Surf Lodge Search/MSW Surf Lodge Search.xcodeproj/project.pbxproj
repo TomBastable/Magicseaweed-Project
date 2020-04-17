@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18AD95625DACF1FFB1367AFC /* Pods_MSW_Surf_Lodge_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569C0382B49BB4C98D1D9706 /* Pods_MSW_Surf_Lodge_Search.framework */; };
+		CCBA72D939BDB2C643B9F7EE /* Pods_MSW_Surf_Lodge_Search_MSW_Surf_Lodge_SearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC289B4B4339955D90CAF8A /* Pods_MSW_Surf_Lodge_Search_MSW_Surf_Lodge_SearchUITests.framework */; };
+		DB9FAD6E7BECCED684A0BCA6 /* Pods_MSW_Surf_Lodge_SearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A7EC770C8DC328EB6C7DDD /* Pods_MSW_Surf_Lodge_SearchTests.framework */; };
 		F22A2CBC2409C8A300963728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22A2CBB2409C8A300963728 /* AppDelegate.swift */; };
 		F22A2CBE2409C8A300963728 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22A2CBD2409C8A300963728 /* SceneDelegate.swift */; };
 		F22A2CC32409C8A300963728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22A2CC12409C8A300963728 /* Main.storyboard */; };
@@ -43,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		285D05530684A5B83927EA7C /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.release.xcconfig"; path = "Target Support Files/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		569C0382B49BB4C98D1D9706 /* Pods_MSW_Surf_Lodge_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSW_Surf_Lodge_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85B31703C15603A8163D719E /* Pods-MSW Surf Lodge SearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSW Surf Lodge SearchTests.debug.xcconfig"; path = "Target Support Files/Pods-MSW Surf Lodge SearchTests/Pods-MSW Surf Lodge SearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85CD592A5B80D2F523BAB37B /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1A7EC770C8DC328EB6C7DDD /* Pods_MSW_Surf_Lodge_SearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSW_Surf_Lodge_SearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAA00EA418CAEEA640A44AE /* Pods-MSW Surf Lodge SearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSW Surf Lodge SearchTests.release.xcconfig"; path = "Target Support Files/Pods-MSW Surf Lodge SearchTests/Pods-MSW Surf Lodge SearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		D838F5E08552E62110F3215B /* Pods-MSW Surf Lodge Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSW Surf Lodge Search.release.xcconfig"; path = "Target Support Files/Pods-MSW Surf Lodge Search/Pods-MSW Surf Lodge Search.release.xcconfig"; sourceTree = "<group>"; };
+		ECC289B4B4339955D90CAF8A /* Pods_MSW_Surf_Lodge_Search_MSW_Surf_Lodge_SearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSW_Surf_Lodge_Search_MSW_Surf_Lodge_SearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F22A2CB82409C8A300963728 /* MSW Surf Lodge Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MSW Surf Lodge Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F22A2CBB2409C8A300963728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F22A2CBD2409C8A300963728 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +76,7 @@
 		F29B5410240A6A1E006CE212 /* SurfLodge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfLodge.swift; sourceTree = "<group>"; };
 		F29B5412240A6B53006CE212 /* SurfLodgeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfLodgeAPI.swift; sourceTree = "<group>"; };
 		F29B5414240A8A77006CE212 /* LodgeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodgeTableViewCell.swift; sourceTree = "<group>"; };
+		F3FDBE824B98DE7C3C749F9E /* Pods-MSW Surf Lodge Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSW Surf Lodge Search.debug.xcconfig"; path = "Target Support Files/Pods-MSW Surf Lodge Search/Pods-MSW Surf Lodge Search.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18AD95625DACF1FFB1367AFC /* Pods_MSW_Surf_Lodge_Search.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9FAD6E7BECCED684A0BCA6 /* Pods_MSW_Surf_Lodge_SearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCBA72D939BDB2C643B9F7EE /* Pods_MSW_Surf_Lodge_Search_MSW_Surf_Lodge_SearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F8C9885D07D47BCC0861AD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3FDBE824B98DE7C3C749F9E /* Pods-MSW Surf Lodge Search.debug.xcconfig */,
+				D838F5E08552E62110F3215B /* Pods-MSW Surf Lodge Search.release.xcconfig */,
+				85CD592A5B80D2F523BAB37B /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.debug.xcconfig */,
+				285D05530684A5B83927EA7C /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.release.xcconfig */,
+				85B31703C15603A8163D719E /* Pods-MSW Surf Lodge SearchTests.debug.xcconfig */,
+				AFAA00EA418CAEEA640A44AE /* Pods-MSW Surf Lodge SearchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E28D88E2555B51C2DA7C892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				569C0382B49BB4C98D1D9706 /* Pods_MSW_Surf_Lodge_Search.framework */,
+				ECC289B4B4339955D90CAF8A /* Pods_MSW_Surf_Lodge_Search_MSW_Surf_Lodge_SearchUITests.framework */,
+				A1A7EC770C8DC328EB6C7DDD /* Pods_MSW_Surf_Lodge_SearchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F22A2CAF2409C8A300963728 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +137,8 @@
 				F22A2CD12409C8A500963728 /* MSW Surf Lodge SearchTests */,
 				F22A2CDC2409C8A500963728 /* MSW Surf Lodge SearchUITests */,
 				F22A2CB92409C8A300963728 /* Products */,
+				2F8C9885D07D47BCC0861AD4 /* Pods */,
+				4E28D88E2555B51C2DA7C892 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F22A2CE22409C8A500963728 /* Build configuration list for PBXNativeTarget "MSW Surf Lodge Search" */;
 			buildPhases = (
+				731734995C4AC340FA01502F /* [CP] Check Pods Manifest.lock */,
 				F22A2CB42409C8A300963728 /* Sources */,
 				F22A2CB52409C8A300963728 /* Frameworks */,
 				F22A2CB62409C8A300963728 /* Resources */,
+				F23BD23C2447EA3700EC1FB4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -208,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F22A2CE52409C8A500963728 /* Build configuration list for PBXNativeTarget "MSW Surf Lodge SearchTests" */;
 			buildPhases = (
+				2DF526EE10F207827DF85640 /* [CP] Check Pods Manifest.lock */,
 				F22A2CCA2409C8A400963728 /* Sources */,
 				F22A2CCB2409C8A400963728 /* Frameworks */,
 				F22A2CCC2409C8A400963728 /* Resources */,
@@ -226,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F22A2CE82409C8A500963728 /* Build configuration list for PBXNativeTarget "MSW Surf Lodge SearchUITests" */;
 			buildPhases = (
+				8AB4382A607AFDEB6E0E3CA6 /* [CP] Check Pods Manifest.lock */,
 				F22A2CD52409C8A500963728 /* Sources */,
 				F22A2CD62409C8A500963728 /* Frameworks */,
 				F22A2CD72409C8A500963728 /* Resources */,
@@ -309,6 +353,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DF526EE10F207827DF85640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSW Surf Lodge SearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		731734995C4AC340FA01502F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSW Surf Lodge Search-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB4382A607AFDEB6E0E3CA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F23BD23C2447EA3700EC1FB4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F22A2CB42409C8A300963728 /* Sources */ = {
@@ -496,6 +626,7 @@
 		};
 		F22A2CE32409C8A500963728 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3FDBE824B98DE7C3C749F9E /* Pods-MSW Surf Lodge Search.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -515,6 +646,7 @@
 		};
 		F22A2CE42409C8A500963728 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D838F5E08552E62110F3215B /* Pods-MSW Surf Lodge Search.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +666,7 @@
 		};
 		F22A2CE62409C8A500963728 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B31703C15603A8163D719E /* Pods-MSW Surf Lodge SearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +689,7 @@
 		};
 		F22A2CE72409C8A500963728 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFAA00EA418CAEEA640A44AE /* Pods-MSW Surf Lodge SearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -578,6 +712,7 @@
 		};
 		F22A2CE92409C8A500963728 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CD592A5B80D2F523BAB37B /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -598,6 +733,7 @@
 		};
 		F22A2CEA2409C8A500963728 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285D05530684A5B83927EA7C /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

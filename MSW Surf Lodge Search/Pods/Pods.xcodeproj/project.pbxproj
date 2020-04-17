@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		267F94C886F69EEBD42438412673B9D4 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E567C42BF2082770CC40B4410E5A6BD1 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		413CE986D4C65DB7A18E23F4E8016287 /* Pods-MSW Surf Lodge Search-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B72F8B62546C7B08C1B4A75AA446C91 /* Pods-MSW Surf Lodge Search-dummy.m */; };
+		5F7D99E05535367B3A1EA026268A5CCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6738F945868F21B45144AECE2A958156 /* Pods-MSW Surf Lodge Search-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6260EF70CA3F0BD51833828AE5D382F /* Pods-MSW Surf Lodge Search-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADB46624694E47E3EFC8DB560EB3899 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C1F79DF1755783F56F83C278E76A6475 /* Pods-MSW Surf Lodge SearchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 755A8B2D54F00460B5DED63B9577C408 /* Pods-MSW Surf Lodge SearchTests-dummy.m */; };
+		EE9C0D3D70680479267EB1B85C5ED1F9 /* Pods-MSW Surf Lodge SearchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F8B7D571C7CCC37A48EE1640272AF5E /* Pods-MSW Surf Lodge SearchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F22E21D0E8967160D35D6F8B9E32E423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F243EE9FFADFE20A2DCC4CB0EF1A43E1 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7F4B2FFFC2F54AC69ADEB3F4928765 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F42A01B020E902C62AD2ECF698287A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		98005FF4E6B2E4ED5CED622FBB6D08E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1C7D3A4F3556326D64A2C1F5242074;
+			remoteInfo = "Pods-MSW Surf Lodge Search";
+		};
+		E6FD00DAE4E299B0E603D4EA494074B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0224854BDA3A02213FA2C151EF36D833 /* Pods_MSW_Surf_Lodge_SearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSW_Surf_Lodge_SearchTests.framework; path = "Pods-MSW Surf Lodge SearchTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B72F8B62546C7B08C1B4A75AA446C91 /* Pods-MSW Surf Lodge Search-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSW Surf Lodge Search-dummy.m"; sourceTree = "<group>"; };
+		1FF512820E1E072784C112FE76E46FB2 /* Pods-MSW Surf Lodge SearchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSW Surf Lodge SearchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3236B16C60A4F7F24ABD715F349DD4BB /* Pods-MSW Surf Lodge Search-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSW Surf Lodge Search-Info.plist"; sourceTree = "<group>"; };
+		37FCC51A104C3BFE28ED881B18181E40 /* Pods_MSW_Surf_Lodge_Search_MSW_Surf_Lodge_SearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSW_Surf_Lodge_Search_MSW_Surf_Lodge_SearchUITests.framework; path = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		430485E0CE8F7CB773CC4258483D853C /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F8B7D571C7CCC37A48EE1640272AF5E /* Pods-MSW Surf Lodge SearchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSW Surf Lodge SearchTests-umbrella.h"; sourceTree = "<group>"; };
+		5667509713A8D0142EDA8FA270143E88 /* Pods-MSW Surf Lodge Search-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSW Surf Lodge Search-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7174038A2B50415FC8EBF66C4BC7BE6D /* Pods-MSW Surf Lodge Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSW Surf Lodge Search.debug.xcconfig"; sourceTree = "<group>"; };
+		755A8B2D54F00460B5DED63B9577C408 /* Pods-MSW Surf Lodge SearchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSW Surf Lodge SearchTests-dummy.m"; sourceTree = "<group>"; };
+		79484F8BCD120C2E45FBB93D5857A5F5 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		92DE752AA7F2A473468F3DB62B7FE48B /* Pods-MSW Surf Lodge SearchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSW Surf Lodge SearchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9529702ED1850B5F73E9AACBC947D58F /* Pods-MSW Surf Lodge SearchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSW Surf Lodge SearchTests.modulemap"; sourceTree = "<group>"; };
+		988275F1880F111106E03516EDAE34BC /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9AEE7F0B3B94AE465FEF26D3829BC7B0 /* Pods-MSW Surf Lodge SearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSW Surf Lodge SearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C343AB682402C36C631F61E0F4F1C19 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-Info.plist"; sourceTree = "<group>"; };
+		9C7FA599061CDC1FE3B8E11F033B8DB6 /* Pods-MSW Surf Lodge Search-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSW Surf Lodge Search-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF8DB5FDA91709476B236CE75F542FEA /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.modulemap"; sourceTree = "<group>"; };
+		C9E77B9161795D977A7781F192F14096 /* Pods-MSW Surf Lodge Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSW Surf Lodge Search.release.xcconfig"; sourceTree = "<group>"; };
+		CA7F4B2FFFC2F54AC69ADEB3F4928765 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-dummy.m"; sourceTree = "<group>"; };
+		D5D8B768884A89B52C6E43DE908DA0E0 /* Pods-MSW Surf Lodge SearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSW Surf Lodge SearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9D0FBF4C030015942133B2F3ABE8CB9 /* Pods-MSW Surf Lodge Search.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MSW Surf Lodge Search.modulemap"; sourceTree = "<group>"; };
+		E567C42BF2082770CC40B4410E5A6BD1 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-umbrella.h"; sourceTree = "<group>"; };
+		EFE62325CB73603F1745704391090F20 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3EECC52CA0B331F7C63D51E74D47565 /* Pods_MSW_Surf_Lodge_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MSW_Surf_Lodge_Search.framework; path = "Pods-MSW Surf Lodge Search.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6260EF70CA3F0BD51833828AE5D382F /* Pods-MSW Surf Lodge Search-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MSW Surf Lodge Search-umbrella.h"; sourceTree = "<group>"; };
+		FB980C5918699550DD1FD2FB1618D668 /* Pods-MSW Surf Lodge SearchTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSW Surf Lodge SearchTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B2D1C5A1049B7A1D03DAB77A295085D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7D99E05535367B3A1EA026268A5CCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8607A9EB6D87607FC1A76CC3E41D32D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22E21D0E8967160D35D6F8B9E32E423 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8736874EC8DBC54DA44920862701077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADB46624694E47E3EFC8DB560EB3899 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CFB36F18D87B09CEBC3F17C884E4A77 /* Pods-MSW Surf Lodge SearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				9529702ED1850B5F73E9AACBC947D58F /* Pods-MSW Surf Lodge SearchTests.modulemap */,
+				1FF512820E1E072784C112FE76E46FB2 /* Pods-MSW Surf Lodge SearchTests-acknowledgements.markdown */,
+				92DE752AA7F2A473468F3DB62B7FE48B /* Pods-MSW Surf Lodge SearchTests-acknowledgements.plist */,
+				755A8B2D54F00460B5DED63B9577C408 /* Pods-MSW Surf Lodge SearchTests-dummy.m */,
+				FB980C5918699550DD1FD2FB1618D668 /* Pods-MSW Surf Lodge SearchTests-Info.plist */,
+				4F8B7D571C7CCC37A48EE1640272AF5E /* Pods-MSW Surf Lodge SearchTests-umbrella.h */,
+				D5D8B768884A89B52C6E43DE908DA0E0 /* Pods-MSW Surf Lodge SearchTests.debug.xcconfig */,
+				9AEE7F0B3B94AE465FEF26D3829BC7B0 /* Pods-MSW Surf Lodge SearchTests.release.xcconfig */,
+			);
+			name = "Pods-MSW Surf Lodge SearchTests";
+			path = "Target Support Files/Pods-MSW Surf Lodge SearchTests";
+			sourceTree = "<group>";
+		};
+		6E5A57223D3D2B7DA2D8AF990878EA8C /* Pods-MSW Surf Lodge Search */ = {
+			isa = PBXGroup;
+			children = (
+				D9D0FBF4C030015942133B2F3ABE8CB9 /* Pods-MSW Surf Lodge Search.modulemap */,
+				5667509713A8D0142EDA8FA270143E88 /* Pods-MSW Surf Lodge Search-acknowledgements.markdown */,
+				9C7FA599061CDC1FE3B8E11F033B8DB6 /* Pods-MSW Surf Lodge Search-acknowledgements.plist */,
+				0B72F8B62546C7B08C1B4A75AA446C91 /* Pods-MSW Surf Lodge Search-dummy.m */,
+				3236B16C60A4F7F24ABD715F349DD4BB /* Pods-MSW Surf Lodge Search-Info.plist */,
+				F6260EF70CA3F0BD51833828AE5D382F /* Pods-MSW Surf Lodge Search-umbrella.h */,
+				7174038A2B50415FC8EBF66C4BC7BE6D /* Pods-MSW Surf Lodge Search.debug.xcconfig */,
+				C9E77B9161795D977A7781F192F14096 /* Pods-MSW Surf Lodge Search.release.xcconfig */,
+			);
+			name = "Pods-MSW Surf Lodge Search";
+			path = "Target Support Files/Pods-MSW Surf Lodge Search";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AED61B9A1CFA211C061344F741DBA07 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		9D619792C2E4567CD942FAE97CEBBC35 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E5A57223D3D2B7DA2D8AF990878EA8C /* Pods-MSW Surf Lodge Search */,
+				E00A96C9CA77D8034287B0350A80E0A8 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests */,
+				5CFB36F18D87B09CEBC3F17C884E4A77 /* Pods-MSW Surf Lodge SearchTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ABBCFBB3EB6EC0AE191A23ADF1A9D14E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3EECC52CA0B331F7C63D51E74D47565 /* Pods_MSW_Surf_Lodge_Search.framework */,
+				37FCC51A104C3BFE28ED881B18181E40 /* Pods_MSW_Surf_Lodge_Search_MSW_Surf_Lodge_SearchUITests.framework */,
+				0224854BDA3A02213FA2C151EF36D833 /* Pods_MSW_Surf_Lodge_SearchTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				ABBCFBB3EB6EC0AE191A23ADF1A9D14E /* Products */,
+				9D619792C2E4567CD942FAE97CEBBC35 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E00A96C9CA77D8034287B0350A80E0A8 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF8DB5FDA91709476B236CE75F542FEA /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.modulemap */,
+				988275F1880F111106E03516EDAE34BC /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-acknowledgements.markdown */,
+				EFE62325CB73603F1745704391090F20 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-acknowledgements.plist */,
+				CA7F4B2FFFC2F54AC69ADEB3F4928765 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-dummy.m */,
+				9C343AB682402C36C631F61E0F4F1C19 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-Info.plist */,
+				E567C42BF2082770CC40B4410E5A6BD1 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-umbrella.h */,
+				430485E0CE8F7CB773CC4258483D853C /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.debug.xcconfig */,
+				79484F8BCD120C2E45FBB93D5857A5F5 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.release.xcconfig */,
+			);
+			name = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests";
+			path = "Target Support Files/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests";
+			sourceTree = "<group>";
+		};
+		EEA599FE5C15138FF0981CCFB01E55AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22AC00EB9755989999BBA56E551BD356 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267F94C886F69EEBD42438412673B9D4 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA215CB0AC6A6C81214F57FC4F0CB68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6738F945868F21B45144AECE2A958156 /* Pods-MSW Surf Lodge Search-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06A750BB3FC74B6609B810E342E9DF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9C0D3D70680479267EB1B85C5ED1F9 /* Pods-MSW Surf Lodge SearchTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4594E9EDCC1E0830DEBEEA2AAEF28754 /* Pods-MSW Surf Lodge SearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A8A81AD93CBBAFE2773EC7A19558E31 /* Build configuration list for PBXNativeTarget "Pods-MSW Surf Lodge SearchTests" */;
+			buildPhases = (
+				F06A750BB3FC74B6609B810E342E9DF0 /* Headers */,
+				B474B23352AAEEDBC953F0B70993B590 /* Sources */,
+				8607A9EB6D87607FC1A76CC3E41D32D0 /* Frameworks */,
+				E01114EEE6C6CE78F8B0206FD51CC057 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE431AFA923838848472FCE2422C1113 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSW Surf Lodge SearchTests";
+			productName = "Pods-MSW Surf Lodge SearchTests";
+			productReference = 0224854BDA3A02213FA2C151EF36D833 /* Pods_MSW_Surf_Lodge_SearchTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0A075A02EAFFA21F6B3713BD41A0452 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B314F958DB717C0B1E1BDCEE18C9C1 /* Build configuration list for PBXNativeTarget "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests" */;
+			buildPhases = (
+				22AC00EB9755989999BBA56E551BD356 /* Headers */,
+				F1527D38CB663E45B1D4AAA0DC66C6BC /* Sources */,
+				4B2D1C5A1049B7A1D03DAB77A295085D /* Frameworks */,
+				96E1EB72A166D73DD7EEF02CE373FF5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8ABD975C53CA915F0A695594C5E9C5A /* PBXTargetDependency */,
+			);
+			name = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests";
+			productName = "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests";
+			productReference = 37FCC51A104C3BFE28ED881B18181E40 /* Pods_MSW_Surf_Lodge_Search_MSW_Surf_Lodge_SearchUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC1C7D3A4F3556326D64A2C1F5242074 /* Pods-MSW Surf Lodge Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A618DEDEAB0D3951EC5857114DAC762 /* Build configuration list for PBXNativeTarget "Pods-MSW Surf Lodge Search" */;
+			buildPhases = (
+				6AA215CB0AC6A6C81214F57FC4F0CB68 /* Headers */,
+				891F8B40F1F88F6876C4612CE7EC1A68 /* Sources */,
+				A8736874EC8DBC54DA44920862701077 /* Frameworks */,
+				D01F5151B64AFF6B3BB66E8B2715F636 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D17588EFF8AF475B1BDFF6F06EC5C154 /* PBXTargetDependency */,
+			);
+			name = "Pods-MSW Surf Lodge Search";
+			productName = "Pods-MSW Surf Lodge Search";
+			productReference = F3EECC52CA0B331F7C63D51E74D47565 /* Pods_MSW_Surf_Lodge_Search.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ABBCFBB3EB6EC0AE191A23ADF1A9D14E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1C7D3A4F3556326D64A2C1F5242074 /* Pods-MSW Surf Lodge Search */,
+				C0A075A02EAFFA21F6B3713BD41A0452 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests */,
+				4594E9EDCC1E0830DEBEEA2AAEF28754 /* Pods-MSW Surf Lodge SearchTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96E1EB72A166D73DD7EEF02CE373FF5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01F5151B64AFF6B3BB66E8B2715F636 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01114EEE6C6CE78F8B0206FD51CC057 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		891F8B40F1F88F6876C4612CE7EC1A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413CE986D4C65DB7A18E23F4E8016287 /* Pods-MSW Surf Lodge Search-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B474B23352AAEEDBC953F0B70993B590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F79DF1755783F56F83C278E76A6475 /* Pods-MSW Surf Lodge SearchTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1527D38CB663E45B1D4AAA0DC66C6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F243EE9FFADFE20A2DCC4CB0EF1A43E1 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE431AFA923838848472FCE2422C1113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MSW Surf Lodge Search";
+			target = EC1C7D3A4F3556326D64A2C1F5242074 /* Pods-MSW Surf Lodge Search */;
+			targetProxy = 98005FF4E6B2E4ED5CED622FBB6D08E8 /* PBXContainerItemProxy */;
+		};
+		D17588EFF8AF475B1BDFF6F06EC5C154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = E6FD00DAE4E299B0E603D4EA494074B7 /* PBXContainerItemProxy */;
+		};
+		E8ABD975C53CA915F0A695594C5E9C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 1F42A01B020E902C62AD2ECF698287A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2966FAF868BCD0CD0D030C19EF1D94C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79484F8BCD120C2E45FBB93D5857A5F5 /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31CC8400CB866A85FC2179FADBE284CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AEE7F0B3B94AE465FEF26D3829BC7B0 /* Pods-MSW Surf Lodge SearchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSW Surf Lodge SearchTests/Pods-MSW Surf Lodge SearchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSW Surf Lodge SearchTests/Pods-MSW Surf Lodge SearchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E78E21FFAEE17086798716740E42112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D8B768884A89B52C6E43DE908DA0E0 /* Pods-MSW Surf Lodge SearchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSW Surf Lodge SearchTests/Pods-MSW Surf Lodge SearchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSW Surf Lodge SearchTests/Pods-MSW Surf Lodge SearchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82F0022CC457F8EBB04D58D8C4FB244F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7174038A2B50415FC8EBF66C4BC7BE6D /* Pods-MSW Surf Lodge Search.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSW Surf Lodge Search/Pods-MSW Surf Lodge Search-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSW Surf Lodge Search/Pods-MSW Surf Lodge Search.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84D7C4574E8F0F3095623F0E06F5B402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		984F4C8EF2085AACFD26E600A7CD176F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 430485E0CE8F7CB773CC4258483D853C /* Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests/Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEED47E09AF743F48544C1C4FEADEF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F85ACF3D78B39506B75103B4694B36 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1BBA0495219CB7639184E01DC02C28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E77B9161795D977A7781F192F14096 /* Pods-MSW Surf Lodge Search.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MSW Surf Lodge Search/Pods-MSW Surf Lodge Search-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MSW Surf Lodge Search/Pods-MSW Surf Lodge Search.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A618DEDEAB0D3951EC5857114DAC762 /* Build configuration list for PBXNativeTarget "Pods-MSW Surf Lodge Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F0022CC457F8EBB04D58D8C4FB244F /* Debug */,
+				F1BBA0495219CB7639184E01DC02C28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A8A81AD93CBBAFE2773EC7A19558E31 /* Build configuration list for PBXNativeTarget "Pods-MSW Surf Lodge SearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E78E21FFAEE17086798716740E42112 /* Debug */,
+				31CC8400CB866A85FC2179FADBE284CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEED47E09AF743F48544C1C4FEADEF47 /* Debug */,
+				84D7C4574E8F0F3095623F0E06F5B402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B314F958DB717C0B1E1BDCEE18C9C1 /* Build configuration list for PBXNativeTarget "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984F4C8EF2085AACFD26E600A7CD176F /* Debug */,
+				2966FAF868BCD0CD0D030C19EF1D94C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

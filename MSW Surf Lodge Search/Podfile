@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MSW Surf Lodge Search' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MSW Surf Lodge Search
+
+pod 'SwiftLint'
+
+  target 'MSW Surf Lodge SearchTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MSW Surf Lodge SearchUITests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,6 @@
+framework module Pods_MSW_Surf_Lodge_Search_MSW_Surf_Lodge_SearchUITests {
+  umbrella header "Pods-MSW Surf Lodge Search-MSW Surf Lodge SearchUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
