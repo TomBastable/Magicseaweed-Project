@@ -11,7 +11,7 @@ import MapKit
 
 // MARK: - API Key. Tester - Please configure the API Key using the property below.
 // Paste between the quotation marks after value:
-private let apiKey: URLQueryItem = URLQueryItem(name: "key", value: "AIzaSyDVccZszyu_J-hK99LoNS-P9tiaVBZ7xpo")
+private let apiKey: URLQueryItem = URLQueryItem(name: "key", value: "")
 
 // MARK: - Endpoint Protocol
 
